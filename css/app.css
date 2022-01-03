@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Luckiest+Guy&display=swap");
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.container {
+  max-width: 1080px;
+}
+
+.main-page {
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 48px;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.font-p {
+  font-family: "Luckiest Guy", cursive;
+}
+.font-s {
+  font-family: "Alfa Slab One", cursive;
+}
+
+a {
+  text-decoration: none;
+  color: white !important;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+.plane{
+  width: 250px;
+  margin-top: -3rem;
+}
+
+.coming-soon{
+  line-height: 25px;
+  height: 200px;
+  font-family: "Alfa Slab One", cursive;
+}
+.coming-soon .text{
+  margin-bottom: -1rem;
+  white-space: pre;
+}
+
+.section{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.feature-badge{
+  border: 2px solid white;
+  height: 60px;
+  font-size: 32px;
+  padding: 1rem;
+  border-radius: 32px;
+  padding-right: 0.5rem;
+}
+
+.feature-badge .icon{
+  width: 2rem;
+  margin-left: auto;
+}
+
+.win-win-win{
+  height: 400px;
+  position: relative;
+}
+
+.image-win{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.win-big{
+  font-size: 98px;
+}
+.win-small{
+  font-size: 58px;
+}
+
+.rotate-left{
+  transform: rotateZ(-45deg);
+}
+
+.rotate-right{
+  transform: rotateZ(45deg);
+}
+
+.feature .section-image{
+  margin-top: 4rem;
+  margin-bottom: -4rem;
+  width: 200px;
+}
+
+.message .section-image{
+  width: 500px;
+}
+
+footer{
+  margin-top: 4rem;
+  border-top: 1px solid rgba(99, 99, 99, 0.66);
+  height: 52px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.claim{
+  font-size: 11px;
+}
+
+.support{
+  background-color: #a1c3fc;
+}
