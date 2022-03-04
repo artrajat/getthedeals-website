@@ -48,27 +48,27 @@ img {
   max-width: 100%;
 }
 
-.plane{
+.plane {
   width: 250px;
   margin-top: -3rem;
 }
 
-.coming-soon{
+.coming-soon {
   line-height: 25px;
   height: 200px;
   font-family: "Alfa Slab One", cursive;
 }
-.coming-soon .text{
+.coming-soon .text {
   margin-bottom: -1rem;
   white-space: pre;
 }
 
-.section{
+.section {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
-.feature-badge{
+.feature-badge {
   border: 2px solid white;
   height: 60px;
   font-size: 32px;
@@ -77,49 +77,49 @@ img {
   padding-right: 0.5rem;
 }
 
-.feature-badge .icon{
+.feature-badge .icon {
   width: 2rem;
   margin-left: auto;
 }
 
-.win-win-win{
+.win-win-win {
   height: 400px;
   position: relative;
 }
 
-.image-win{
+.image-win {
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
 }
 
-.win-big{
+.win-big {
   font-size: 98px;
 }
-.win-small{
+.win-small {
   font-size: 58px;
 }
 
-.rotate-left{
+.rotate-left {
   transform: rotateZ(-45deg);
 }
 
-.rotate-right{
+.rotate-right {
   transform: rotateZ(45deg);
 }
 
-.feature .section-image{
+.feature .section-image {
   margin-top: 4rem;
   margin-bottom: -4rem;
   width: 200px;
 }
 
-.message .section-image{
+.message .section-image {
   width: 500px;
 }
 
-footer{
+footer {
   margin-top: 4rem;
   border-top: 1px solid rgba(99, 99, 99, 0.66);
   height: 52px;
@@ -127,10 +127,57 @@ footer{
   text-align: center;
 }
 
-.claim{
+.claim {
   font-size: 11px;
 }
 
-.support{
+.support {
   background-color: #a1c3fc;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .feature-badge {
+    font-size: 22px;
+    padding: 0.5rem;
+  }
+
+  .feature .section-image-container {
+    text-align: right;
+  }
+  .feature .section-image {
+    margin-top: -11rem;
+  }
+  .win-big {
+    font-size: 60px;
+  }
+  .win-small {
+    font-size: 30px;
+  }
+  .rotate-left {
+    transform: rotateZ(-22deg);
+  }
+
+  .rotate-right {
+    transform: rotateZ(22deg);
+  }
+  .win-win-win {
+    height: 325px;
+  }
+  .coming-soon {
+    transform: rotateZ(-20deg);
+  }
+  .coming-soon .text {
+    transform: rotateZ(20deg);
+    margin-top: -4rem;
+    white-space: normal;
+  }
+  .plane{
+    width: 190px;
+  }
 }
